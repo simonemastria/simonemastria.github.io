@@ -188,7 +188,7 @@ header {
 }
 
 header .m_android,
-.m_ios, .m_home, .m_history{
+.m_ios, .m_home, .m_history {
   display: none;
 }
 
