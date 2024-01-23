@@ -213,6 +213,24 @@ nav li {
 
 /* RESPONSIVE RULES */
 
+@media screen and (max-width: 1290px) {
+  header {
+    height: 250px;
+    background-position: 0 -30px;
+  }
+
+  header .m_android,
+  .m_ios, .m_home, .m_history{
+    display: inline-block;
+  }
+
+  header .d_android,
+  .d_ios, .index, .history {
+    display: none;
+  }
+}
+
+
 @media screen and (max-width: 932px) {
   header {
     height: 250px;
