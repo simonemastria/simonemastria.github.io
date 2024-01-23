@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mobile Computing and The Evolution of User Interface</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to Top">⬆</button>
+    <script>
+      // Get the button
+      let button = document.getElementById("myBtn");
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () { scrollFunction() };
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          button.style.display = "block";
+        } else {
+          button.style.display = "none";
+        }
+      }
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+    
+    <header>
+        <nav>
+            <ul>
+                <li class="index"><a href="/index.html">HOME</a></li>
+                <li class="history"><a href="/pages/History.html">HISTORY</a></li>
+                <li class="m_android"><a href="/pages/Android.html">Android</a></li>
+                <li class="m_ios"><a href="/pages/iOS.html">iOS</a></li>
+                <li class="logo"><a href="/index.html">LOGO</a></li>
+                <li class="d_android"><a href="/pages/Android.html">ANDROID</a></li>
+                <li class="d_ios"><a href="/pages/iOS.html">iOS</a></li>
+            </ul>
+            <h1>
+                <center>Mobile Computing and The Evolution of User Interface</center>
+            </h1>
+        </nav>
+    </header>
+    <br>
+    <section>
+        <br>
+        <br>
+        <h3>About Us and Our Mission</h3>
+        <br>
+        <br>
+        <h2>
+            <p>Welcome to the forefront of digital innovation!
+                <br>We are a group of three passionate students from the University of Bologna,
+                <br>united by our exploration of the dynamic world of mobile technology.
+                <br>Our platform serves as a comprehensive resource where enthusiasts, developers,
+                <br>and curious minds come together to delve into the rich history
+                <br>and cutting-edge developments of mobile computing.
+            </p>
+            <p>At our core, we are driven by a mission to demystify the evolution
+                <br>of user interfaces in the realm of mobile computing.
+                <br>We, as M.Sc. students in the first place, aim to empower users, designers, and developers
+                <br>with insights into the past, present, and future of mobile technologies.
+                <br>Through engaging content and detailed explorations, we strive to foster
+                <br>a deeper understanding of the mobile landscape.
+            </p>
+            <br>
+            <br>
+            <h3>Embark on a Journey Through Our Pages</h3>
+            <br>
+            <br>
+            <h3>
+                <p class="left-align"><a href="/pages/History.html" class="home-links">Discover the Roots</a></p>
+            </h3>
+            <h2>
+                <p class="left-align">Begin your exploration with the history of Mobile Computing.
+                    <br>Travel back to the inception of mobile technology, unraveling its humble beginnings
+                    <br>and tracing the transformative milestones that have shaped the landscape of portable computing
+                    devices.
+                </p>
+            </h2>
+            <br>
+            <br>
+            <h3>
+                <p class="right-align"><a href="/pages/Android.html" class="home-links">Navigate the Android
+                        Universe</a></p>
+            </h3>
+            <h2>
+                <p class="right-align">Immerse yourself in the intricate world of Android as we delve into its Mobile
+                    Design and User Interface.
+                    <br>Uncover the evolution of this dynamic platform, from its nascent stages to the latest updates,
+                    <br>and witness how Android has seamlessly crafted an intuitive user experience.
+                </p>
+            </h2>
+            <br>
+            <br>
+            <h3>
+                <p class="left-align"><a href="/pages/iOS.html" class="home-links">Experience the iOS Elegance</a></p>
+            </h3>
+            <h2>
+                <p class="left-align">Step into the sophisticated universe of iOS with our dedicated section on its
+                    Mobile Design and User Interface.
+                    <br>Explore the design philosophy and distinctive interface elements that define Apple's operating
+                    system,
+                    <br>spanning from its early iterations to the present day.
+                </p>
+            </h2>
+            <br>
+
+            <footer>
+                <div class="features">
+                    <figure>
+                        <img src="/images/UIicon.png" alt="User Interface" width="300">
+                    </figure>
+                    <figure>
+                        <img src="/images/androidicon.png" alt="Android User Interface" width="300">
+                    </figure>
+                    <figure>
+                        <img src="/images/icone-ios-noir.png" alt="iOS User Interface" width="300">
+                    </figure>
+                </div>
+                <h4> Via Zamboni 27/29 - 40126 Bologna (BO)</h4>
+            </footer>
+</body>
+
+</html>
