@@ -188,7 +188,7 @@ header {
 }
 
 header .m_android,
-.m_ios {
+.m_ios, .m_home, .m_history{
   display: none;
 }
 
@@ -220,12 +220,12 @@ nav li {
   }
 
   header .m_android,
-  .m_ios {
+  .m_ios, .m_home, .m_history{
     display: inline-block;
   }
 
   header .d_android,
-  .d_ios {
+  .d_ios, .d_home, .d_history {
     display: none;
   }
 }
@@ -237,12 +237,12 @@ nav li {
   }
 
   header .m_android,
-  .m_ios {
+  .m_ios, .m_home, .m_history{
     display: inline-block;
   }
 
   header .d_android,
-  .d_ios {
+  .d_ios, .d_home, .d_history{
     display: none;
   }
 }
@@ -295,7 +295,11 @@ li.index,
 .d_ios,
 .d_android,
 .m_ios,
-.m_android {
+.m_android,
+.d_home,
+.m_home,
+.d_history,
+.m_history{
   position: relative;
   top: 40px;
 
