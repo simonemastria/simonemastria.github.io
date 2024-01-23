@@ -225,7 +225,7 @@ nav li {
   }
 
   header .d_android,
-  .d_ios, .d_home, .d_history {
+  .d_ios, .index, .history {
     display: none;
   }
 }
@@ -242,7 +242,7 @@ nav li {
   }
 
   header .d_android,
-  .d_ios, .d_home, .d_history{
+  .d_ios, .index, .history{
     display: none;
   }
 }
@@ -296,9 +296,7 @@ li.index,
 .d_android,
 .m_ios,
 .m_android,
-.d_home,
 .m_home,
-.d_history,
 .m_history{
   position: relative;
   top: 40px;
