@@ -1,0 +1,419 @@
+html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background-color: whitesmoke;
+  color: rgb(118, 0, 173);
+  min-height: 100%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+/* BOX FOR HISTORY AND IOS */
+
+.parent {
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+
+.child {
+  font-size: 120%;
+  display: inline-block;
+  border: 10px solid rgb(118, 0, 173);
+  border-radius: 25px;
+  padding: 2rem 2rem;
+  height: auto;
+  width: 40%;
+  margin: 10px;
+  vertical-align: middle;
+  position: relative;
+}
+
+.childleft {
+  font-size: 120%;
+  display: inline-block;
+  border: 10px solid rgb(118, 0, 173);
+  border-radius: 25px;
+  padding: 2rem 2rem;
+  height: auto;
+  width: 40%;
+  margin: 10px;
+  vertical-align: middle;
+  position: relative;
+  left: 0;
+}
+
+.childright {
+  font-size: 120%;
+  ;
+  display: inline-block;
+  border: 10px solid rgb(118, 0, 173);
+  border-radius: 25px;
+  padding: 2rem 2rem;
+  height: auto;
+  width: 40%;
+  margin: 10px;
+  vertical-align: middle;
+  position: relative;
+  right: 0;
+}
+
+
+/* BOX FOR ANDROID */
+
+.parentandro {
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+
+.childandro {
+  font-size: 120%;
+  display: inline-block;
+  border: 10px solid rgb(61, 173, 0);
+  border-radius: 25px;
+  padding: 2rem 2rem;
+  height: auto;
+  margin: 10px;
+  width: 40%;
+  vertical-align: middle;
+  position: relative;
+}
+
+.childandrocent {
+  font-size: 120%;
+  display: inline-block;
+  border: 10px solid rgb(61, 173, 0);
+  border-radius: 25px;
+  padding: 2rem 2rem;
+  height: auto;
+  margin: 10px;
+  width: 40%;
+  vertical-align: middle;
+  position: relative;
+}
+
+.childandroleft {
+  font-size: 120%;
+  display: inline-block;
+  border: 10px solid rgb(61, 173, 0);
+  border-radius: 25px;
+  padding: 2rem 2rem;
+  height: auto;
+  width: 40%;
+  margin: 10px;
+  vertical-align: middle;
+  position: relative;
+  left: 0;
+}
+
+.childandroright {
+  font-size: 120%;
+  ;
+  display: inline-block;
+  border: 10px solid rgb(61, 173, 0);
+  border-radius: 25px;
+  padding: 2rem 2rem;
+  height: auto;
+  width: 40%;
+  margin: 10px;
+  vertical-align: middle;
+  position: relative;
+  right: 0;
+}
+
+h1 {
+  color: rgb(236, 220, 251);
+
+
+}
+
+h2 {
+  color: rgb(73, 46, 99);
+  font-weight: 300;
+  line-height: 32px;
+  margin: 00;
+  text-align: center;
+}
+
+h3 {
+  color: rgb(73, 46, 99);
+  font-size: 2.5em;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 00;
+  text-align: center;
+}
+
+h4 {
+  color: rgb(73, 46, 99);
+  font-size: 1.5em;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 00 72px;
+  text-align: center;
+}
+
+h5 {
+  color: rgb(73, 46, 99);
+  font-weight: 300;
+  line-height: 32px;
+  margin: 00;
+  text-align: center;
+}
+
+
+
+/* HEADER */
+
+
+
+header {
+  background-image: url("images/background.avif");
+  background-size: 100%;
+  background-position: center;
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  height: 150px;
+
+}
+
+header .m_android,
+.m_ios {
+  display: none;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  position: relative;
+  font-size: xx-large;
+}
+
+nav li {
+  display: inline-block;
+  padding: 1px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 2px;
+  border-radius: 3px;
+}
+
+/* RANDOM BUTTON */
+
+/* RESPONSIVE RULES */
+
+@media screen and (max-width: 715px) {
+  header {
+    height: 250px;
+    background-position: 0 -30px;
+  }
+
+  header .m_android,
+  .m_ios {
+    display: inline-block;
+  }
+
+  header .d_android,
+  .d_ios {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  header {
+    height: 200px;
+    background-position: 0 0;
+  }
+
+  header .m_android,
+  .m_ios {
+    display: inline-block;
+  }
+
+  header .d_android,
+  .d_ios {
+    display: none;
+  }
+}
+
+/* FOOTER */
+
+footer {
+  position: static;
+  bottom: 0;
+  margin: 0;
+  left: 0;
+  width: 100%;
+
+  color: #7600ad;
+  background-image: url("images/background.avif");
+  background-size: 100%;
+  background-position: center;
+  padding: 1px;
+  text-align: center;
+  font-size: 10px;
+}
+
+/* FEATURES */
+
+.features {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.features figure {
+  margin: auto;
+  width: 100px;
+  text-align: center;
+}
+
+.features figure img {
+  width: 90px;
+  height: 90px;
+  margin: 10px;
+  border-radius: 50%;
+  box-shadow: #7600ad 0 0 10px;
+}
+
+li.index,
+.history,
+.d_ios,
+.d_android,
+.m_ios,
+.m_android {
+  position: relative;
+  top: 40px;
+
+}
+
+.index:hover,
+.history:hover,
+.ios:hover,
+.android:hover {
+  -webkit-text-size-adjust: 2%;
+}
+
+li:first-child {
+  margin-left: 30px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #5707ad;
+  /*color: rgb(199, 216, 102);*/
+}
+
+.home-links {
+  color: rgb(118, 0, 173);
+}
+
+.home-links:hover {
+  text-decoration: underline;
+  color: #5707ad;
+}
+
+.left-align {
+  text-align: left;
+}
+
+.right-align {
+  text-align: right;
+}
+
+.logo a {
+  background-image: url("images/UXlogo.png");
+  background-color: none;
+  background-size: 80px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -9999999px;
+  height: 80px;
+  width: 80px;
+}
+
+/* RESPONSIVE RULES */
+
+@media screen and (max-width: 715px) {
+  .features {
+    display: block;
+  }
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+
+/* Button go to top */
+button {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Fixed/sticky position */
+  bottom: 20px;
+  /* Place the button at the bottom of the page */
+  right: 20px;
+  z-index: 99;
+  /* Make sure it does not overlap */
+  border: none;
+  /* Remove borders */
+  outline: none;
+  /* Remove outline */
+  background-color: #7600ad;
+  /* Set a background color */
+  color: rgb(255, 255, 255);
+  /* Text color */
+  cursor: pointer;
+  /* Add a mouse pointer on hover */
+  padding: 15px;
+  /* Some padding */
+  border-radius: 30%;
+  /* Rounded corners */
+  font-size: 20px;
+  /* Increase font size */
+  box-shadow: rgb(49, 48, 48) 0 0 5px;
+}
+
+button:hover {
+  background-color: #5707ad;
+  scale: 1.2;
+}
